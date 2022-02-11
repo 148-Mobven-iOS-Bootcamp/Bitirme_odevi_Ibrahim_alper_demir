@@ -1,9 +1,4 @@
-//
-//  ToDoAppUITestsLaunchTests.swift
-//  ToDoAppUITests
-//
-//  Created by Alper Demir on 11.02.2022.
-//
+
 
 import XCTest
 

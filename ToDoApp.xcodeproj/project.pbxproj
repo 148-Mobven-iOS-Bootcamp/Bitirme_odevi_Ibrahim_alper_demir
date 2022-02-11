@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0396A0A627B6DD8B005B9949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396A0A527B6DD8B005B9949 /* AppDelegate.swift */; };
-		0396A0A827B6DD8B005B9949 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396A0A727B6DD8B005B9949 /* SceneDelegate.swift */; };
-		0396A0AA27B6DD8B005B9949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396A0A927B6DD8B005B9949 /* ViewController.swift */; };
-		0396A0AD27B6DD8B005B9949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0396A0AB27B6DD8B005B9949 /* Main.storyboard */; };
 		0396A0B027B6DD8B005B9949 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0396A0AE27B6DD8B005B9949 /* ToDoApp.xcdatamodeld */; };
-		0396A0B227B6DD8D005B9949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0396A0B127B6DD8D005B9949 /* Assets.xcassets */; };
-		0396A0B527B6DD8D005B9949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0396A0B327B6DD8D005B9949 /* LaunchScreen.storyboard */; };
 		0396A0C027B6DD8E005B9949 /* ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396A0BF27B6DD8E005B9949 /* ToDoAppTests.swift */; };
 		0396A0CA27B6DD8E005B9949 /* ToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396A0C927B6DD8E005B9949 /* ToDoAppUITests.swift */; };
 		0396A0CC27B6DD8E005B9949 /* ToDoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396A0CB27B6DD8E005B9949 /* ToDoAppUITestsLaunchTests.swift */; };
+		0396A0DA27B6DDC3005B9949 /* TodoSampleAppTests in Resources */ = {isa = PBXBuildFile; fileRef = 0396A0D827B6DDC2005B9949 /* TodoSampleAppTests */; };
+		0396A0DB27B6DDC3005B9949 /* TodoSampleApp in Resources */ = {isa = PBXBuildFile; fileRef = 0396A0D927B6DDC3005B9949 /* TodoSampleApp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +34,15 @@
 
 /* Begin PBXFileReference section */
 		0396A0A227B6DD8B005B9949 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0396A0A527B6DD8B005B9949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0396A0A727B6DD8B005B9949 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0396A0A927B6DD8B005B9949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0396A0AC27B6DD8B005B9949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0396A0AF27B6DD8B005B9949 /* ToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoApp.xcdatamodel; sourceTree = "<group>"; };
-		0396A0B127B6DD8D005B9949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0396A0B427B6DD8D005B9949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0396A0B627B6DD8D005B9949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0396A0BB27B6DD8E005B9949 /* ToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0396A0BF27B6DD8E005B9949 /* ToDoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppTests.swift; sourceTree = "<group>"; };
 		0396A0C527B6DD8E005B9949 /* ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0396A0C927B6DD8E005B9949 /* ToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppUITests.swift; sourceTree = "<group>"; };
 		0396A0CB27B6DD8E005B9949 /* ToDoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0396A0D827B6DDC2005B9949 /* TodoSampleAppTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TodoSampleAppTests; sourceTree = "<group>"; };
+		0396A0D927B6DDC3005B9949 /* TodoSampleApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TodoSampleApp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +93,8 @@
 		0396A0A427B6DD8B005B9949 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
-				0396A0A527B6DD8B005B9949 /* AppDelegate.swift */,
-				0396A0A727B6DD8B005B9949 /* SceneDelegate.swift */,
-				0396A0A927B6DD8B005B9949 /* ViewController.swift */,
-				0396A0AB27B6DD8B005B9949 /* Main.storyboard */,
-				0396A0B127B6DD8D005B9949 /* Assets.xcassets */,
-				0396A0B327B6DD8D005B9949 /* LaunchScreen.storyboard */,
+				0396A0D927B6DDC3005B9949 /* TodoSampleApp */,
+				0396A0D827B6DDC2005B9949 /* TodoSampleAppTests */,
 				0396A0B627B6DD8D005B9949 /* Info.plist */,
 				0396A0AE27B6DD8B005B9949 /* ToDoApp.xcdatamodeld */,
 			);
@@ -234,9 +222,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0396A0B527B6DD8D005B9949 /* LaunchScreen.storyboard in Resources */,
-				0396A0B227B6DD8D005B9949 /* Assets.xcassets in Resources */,
-				0396A0AD27B6DD8B005B9949 /* Main.storyboard in Resources */,
+				0396A0DB27B6DDC3005B9949 /* TodoSampleApp in Resources */,
+				0396A0DA27B6DDC3005B9949 /* TodoSampleAppTests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0396A0AA27B6DD8B005B9949 /* ViewController.swift in Sources */,
-				0396A0A627B6DD8B005B9949 /* AppDelegate.swift in Sources */,
-				0396A0A827B6DD8B005B9949 /* SceneDelegate.swift in Sources */,
 				0396A0B027B6DD8B005B9949 /* ToDoApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,25 +283,6 @@
 			targetProxy = 0396A0C627B6DD8E005B9949 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0396A0AB27B6DD8B005B9949 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0396A0AC27B6DD8B005B9949 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0396A0B327B6DD8D005B9949 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0396A0B427B6DD8D005B9949 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0396A0CD27B6DD8E005B9949 /* Debug */ = {
@@ -495,7 +460,6 @@
 		0396A0D327B6DD8E005B9949 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -515,7 +479,6 @@
 		0396A0D427B6DD8E005B9949 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -535,7 +498,6 @@
 		0396A0D627B6DD8E005B9949 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T4L6XK5D47;
@@ -553,7 +515,6 @@
 		0396A0D727B6DD8E005B9949 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T4L6XK5D47;
